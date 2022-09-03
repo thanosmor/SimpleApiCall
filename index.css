@@ -1,0 +1,25 @@
+
+body {
+    background:linear-gradient(90deg, rgba(47,51,56,1) 4%, rgba(11,24,21,1) 55%);
+    background-repeat: no-repeat;
+    display: flex;
+    font-family: Oxygen, sans-serif;
+    color: #2fa59b;
+    padding: 0 24px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  button{
+    font-size:1.2rem;
+    font-weight: bold;
+    height:100px;
+    width:100px;
+    background-color: red;
+    border-radius: 50%;
+  }

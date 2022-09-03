@@ -1,0 +1,16 @@
+
+let head =  document.querySelector('#header')
+let btn = document.getElementById('btn');
+
+btn.addEventListener("click", getQuote);
+
+
+function getQuote(){
+
+
+
+    fetch('http://www.boredapi.com/api/activity/')
+    .then((response) => { return response.json()})
+    .then((data) => { console.log(data);  head.textContent= data.activity } )
+
+  }
