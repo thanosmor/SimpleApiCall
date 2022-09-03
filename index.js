@@ -9,7 +9,7 @@ function getQuote(){
 
 
 
-    fetch('http://www.boredapi.com/api/activity/')
+    fetch('https://www.boredapi.com/api/activity/')
     .then((response) => { return response.json()})
     .then((data) => { console.log(data);  head.textContent= data.activity } )
 
